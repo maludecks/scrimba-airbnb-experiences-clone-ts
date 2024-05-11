@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.content-container {
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 7px 0px #0000001a;
+}
+
+.navbar--logo {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero--section {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--image {
+  margin-top: 3rem;
+  max-width: 800px;
+  align-self: center;
+}
+
+.hero--text {
+  width: 45%;
+}
+
+.hero--text h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero--text h2 {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.card--container {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.card {
+  width: 225px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card .gray {
+  color: #918e9b;
+}
+
+.card .card--cover {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.card--stats img {
+  max-width: 8%;
+  align-self: center;
+}
+
+.card--title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+}
+
+.card--price {
+  margin-top: 0;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
